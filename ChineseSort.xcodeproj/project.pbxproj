@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C4A2F81CA6BD4D00B31EF5 /* BankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C4A2F71CA6BD4D00B31EF5 /* BankModel.m */; };
+		A91939EB15CB8EEA001C48CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91939EA15CB8EEA001C48CE /* Foundation.framework */; };
+		A91939EE15CB8EEA001C48CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91939ED15CB8EEA001C48CE /* main.m */; };
+		A9193A0515CB916E001C48CE /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = A9193A0415CB916E001C48CE /* pinyin.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A91939E415CB8EEA001C48CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20C4A2F61CA6BD4D00B31EF5 /* BankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankModel.h; sourceTree = "<group>"; };
+		20C4A2F71CA6BD4D00B31EF5 /* BankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankModel.m; sourceTree = "<group>"; };
+		A91939E615CB8EEA001C48CE /* ChineseSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChineseSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91939EA15CB8EEA001C48CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A91939ED15CB8EEA001C48CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A91939F015CB8EEA001C48CE /* ChineseSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseSort-Prefix.pch"; sourceTree = "<group>"; };
+		A9193A0315CB916E001C48CE /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		A9193A0415CB916E001C48CE /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91939E315CB8EEA001C48CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91939EB15CB8EEA001C48CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91939DB15CB8EEA001C48CE = {
+			isa = PBXGroup;
+			children = (
+				A91939EC15CB8EEA001C48CE /* ChineseSort */,
+				A91939E915CB8EEA001C48CE /* Frameworks */,
+				A91939E715CB8EEA001C48CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91939E715CB8EEA001C48CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91939E615CB8EEA001C48CE /* ChineseSort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91939E915CB8EEA001C48CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A91939EA15CB8EEA001C48CE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91939EC15CB8EEA001C48CE /* ChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				A9193A0315CB916E001C48CE /* pinyin.h */,
+				A9193A0415CB916E001C48CE /* pinyin.c */,
+				20C4A2F61CA6BD4D00B31EF5 /* BankModel.h */,
+				20C4A2F71CA6BD4D00B31EF5 /* BankModel.m */,
+				A91939ED15CB8EEA001C48CE /* main.m */,
+				A91939F015CB8EEA001C48CE /* ChineseSort-Prefix.pch */,
+			);
+			path = ChineseSort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91939E515CB8EEA001C48CE /* ChineseSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91939F515CB8EEA001C48CE /* Build configuration list for PBXNativeTarget "ChineseSort" */;
+			buildPhases = (
+				A91939E215CB8EEA001C48CE /* Sources */,
+				A91939E315CB8EEA001C48CE /* Frameworks */,
+				A91939E415CB8EEA001C48CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseSort;
+			productName = ChineseSort;
+			productReference = A91939E615CB8EEA001C48CE /* ChineseSort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91939DD15CB8EEA001C48CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = A91939E015CB8EEA001C48CE /* Build configuration list for PBXProject "ChineseSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A91939DB15CB8EEA001C48CE;
+			productRefGroup = A91939E715CB8EEA001C48CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91939E515CB8EEA001C48CE /* ChineseSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91939E215CB8EEA001C48CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91939EE15CB8EEA001C48CE /* main.m in Sources */,
+				A9193A0515CB916E001C48CE /* pinyin.c in Sources */,
+				20C4A2F81CA6BD4D00B31EF5 /* BankModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A91939F315CB8EEA001C48CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A91939F415CB8EEA001C48CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A91939F615CB8EEA001C48CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSort/ChineseSort-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A91939F715CB8EEA001C48CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseSort/ChineseSort-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91939E015CB8EEA001C48CE /* Build configuration list for PBXProject "ChineseSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91939F315CB8EEA001C48CE /* Debug */,
+				A91939F415CB8EEA001C48CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91939F515CB8EEA001C48CE /* Build configuration list for PBXNativeTarget "ChineseSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91939F615CB8EEA001C48CE /* Debug */,
+				A91939F715CB8EEA001C48CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91939DD15CB8EEA001C48CE /* Project object */;
+}
